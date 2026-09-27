@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Box Model Practice</title>
+
+    <!-- Link the external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Box Model Practice</h1>
+
+    <h2>Exercise 1 - the four layers</h2>
+
+    <div class="box content-only">Content</div>
+    <div class="box with-padding">Padding</div>
+    <div class="box with-border">Border</div>
+    <div class="box with-margin">Margin</div>
+
+    <h2>Exercise 2 - the broken box</h2>
+
+    <div class="broken-box">It should be 300px wide. I am not.</div>
+
+    <h2>Exercise 3 - the card</h2>
+
+    <article class="card">
+      <img
+        src="https://placehold.co/358x150"
+        alt="Grey placeholder for a project screenshot"
+      />
+
+      <h3>Project title</h3>
+
+      <p>One sentence about the project.</p>
+
+      <button type="button">View project</button>
+    </article>
+  </body>
+</html>
